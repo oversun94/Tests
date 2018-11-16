@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script>
+var otvet = 0 //правильные ответы 
+var a = prompt('Зимой и летом:')
+if (a == 'елка') {
+	alert('правильно');
+	otvet++;
+} else {
+	alert('неправильно');
+}
+var a = prompt('Висит груша:')
+if (a == 'лампочка') {
+	alert('правильно');
+	otvet++;
+} else {
+	alert('неправильно');
+}
+alert(otvet);
+</script>
