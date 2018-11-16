@@ -15,5 +15,5 @@ if (a == 'лампочка') {
 } else {
 	alert('неправильно');
 }
-alert(otvet);
+alert('Верных ответов:' +otvet);
 </script>
