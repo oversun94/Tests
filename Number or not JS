@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<script>
+ var a = parseInt(prompt('Введите А число'));
+ var b = parseInt(prompt('Введите Б число'));
+ var c = parseInt(prompt('Введите В число'));
+ 
+ if (isNaN(a)  ||  isNaN(b) ||  isNaN(c)) {
+	 alert ('Это не числа');
+ }
+ else {
+	 alert ('Ты ввёл числа, молодец');
+ }
+ </script>
