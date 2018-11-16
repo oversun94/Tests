@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<script>
+ var a = parseInt(prompt('Введите А число'));
+ var b = parseInt(prompt('Введите Б число'));
+ var c = parseInt(prompt('Введите В число'));
+ 
+ if ((a>b)&&(a>c)) {
+	 alert('А больше всех');
+ }
+ else if ((b>a)&&(b>c)) {
+	 alert('Б больше всех');
+ }
+ else if ((b==a)&&(b==c)) {
+	 alert('Все числа одинаковы');
+ }
+ else if ((c>a)&&(c>b)) {
+	 alert('В больше всех');
+ }
+ 
+ else {
+	 alert('Недопустимые числа');
+ }
+</script>
