@@ -1,0 +1,15 @@
+<meta charset="utf-8">
+<script>
+	var a = prompt ('введите угол от 90 до 180');
+	var b1 = 90;
+	var b2 = 100;
+	var c1 = 120;
+	var c2 = 130;
+
+if ((( a >= b1 ) && ( a <= b2)) || (( a >= c1 ) && ( a <= c2 ))) {
+ 	alert ('попал');
+}
+else {
+alert ('промазал');
+}
+</script>   
