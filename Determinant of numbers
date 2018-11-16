@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<script>
+ var n = parseInt(prompt('N'));
+ if (n>0) {
+	 alert('Положительное число');
+ }
+ else if (n<0) {
+	 alert('Отрицательное число');
+ }
+ else if (n==0) {
+	 alert('Это ноль');
+ }
+ else {
+	 alert ('Это не число');
+ }
+ 
+</script>
